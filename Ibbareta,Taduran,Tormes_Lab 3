@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Clock {
+    
+    // Method to convert seconds to minutes
+    public static int secondsToMinutes(int seconds) {
+        return seconds / 60;
+    }
+
+    // Method to convert seconds to hours
+    public static int secondsToHours(int seconds) {
+        return seconds / 3600;
+    }
+
+    // Method to convert minutes to seconds
+    public static int minutesToSeconds(int minutes) {
+        return minutes * 60;
+    }
+
+    // Method to convert minutes to hours
+    public static double minutesToHours(int minutes) {
+        return minutes / 60.0;
+    }
+
