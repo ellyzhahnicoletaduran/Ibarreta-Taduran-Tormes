@@ -22,3 +22,23 @@ public class Clock {
         return minutes / 60.0;
     }
 
+// Method to convert minutes to hours
+    public static double minutesToHours(int minutes) {
+        return minutes / 60.0;
+    }
+
+    // Method to convert hours to seconds
+    public static int hoursToSeconds(int hours) {
+        return hours * 3600;
+    }
+
+    // Method to convert hours to minutes
+    public static int hoursToMinutes(int hours) {
+        return hours * 60;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+        
+        do {
